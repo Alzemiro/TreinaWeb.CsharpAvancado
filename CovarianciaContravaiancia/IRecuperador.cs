@@ -4,8 +4,8 @@ using System.Text;
 
 namespace CovarianciaContravaiancia
 {
-    interface IArmazenador<in T>
+    interface IRecuperador<out T>
     {
-        public void Armazenar(T item);
+       public T Recuperar(int codigo);
     }
 }

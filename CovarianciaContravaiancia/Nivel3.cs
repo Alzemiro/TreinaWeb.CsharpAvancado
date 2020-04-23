@@ -4,8 +4,7 @@ using System.Text;
 
 namespace CovarianciaContravaiancia
 {
-    interface IArmazenador<in T>
+    class Nivel3 : Nivel2
     {
-        public void Armazenar(T item);
     }
 }
